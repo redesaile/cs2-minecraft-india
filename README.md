@@ -1,5 +1,5 @@
 # India `AWP`
-**Game Mode:** AWP, Classic, Deathmatch, Custom, Training
+**Game Mode:** AWP, Classic, Deathmatch, Custom, Flying Scoutsman
 
 **Weapon:** Any available for purchase
 <br>**Maximum players:** 40 (20 per team)
