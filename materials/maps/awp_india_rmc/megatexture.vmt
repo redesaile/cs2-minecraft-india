@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	$basetexture "maps/awp_india_rmc/megatexture_color"
+	$surfaceprop Sand
+
+	%keywords "maps"
+}
