@@ -1,5 +1,5 @@
 # Minecraft India
-AWP India map from [Minecraft](https://www.minecraft.net) (see [Planet Minecraft Community](https://www.planetminecraft.com/project/awp-india-csgo/)), ported to [Counter-Strike: Global Offensive](https://en.wikipedia.org/wiki/Counter-Strike:_Global_Offensive) (that version can be found in [Releases](https://github.com/redesaile/cs2-minecraft-india/releases/tag/csgo)) and updated to [Counter-Strike 2](https://store.steampowered.com/app/730) with some changes.
+AWP India map from [Minecraft](https://www.minecraft.net) (see the [Planet Minecraft Community](https://www.planetminecraft.com/project/awp-india-csgo/)), ported to [Counter-Strike: Global Offensive](https://en.wikipedia.org/wiki/Counter-Strike:_Global_Offensive) (that version can be found in [Releases](https://github.com/redesaile/cs2-minecraft-india/releases/tag/csgo)) and updated to [Counter-Strike 2](https://store.steampowered.com/app/730) with some changes.
 
 ## Details
 **Game scenario:** Aim Training
