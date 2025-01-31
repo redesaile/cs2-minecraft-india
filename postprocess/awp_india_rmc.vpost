@@ -16,14 +16,14 @@
 			m_nHueCyan = 0
 			m_nHueBlue = 0
 			m_nHueMagenta = 0
-			m_nSaturationMaster = 2
+			m_nSaturationMaster = 3
 			m_nSaturationRed = 0
 			m_nSaturationYellow = 0
 			m_nSaturationGreen = 0
 			m_nSaturationCyan = 0
 			m_nSaturationBlue = 0
 			m_nSaturationMagenta = 0
-			m_nBrightnessMaster = 2
+			m_nBrightnessMaster = 4
 			m_nBrightnessRed = 0
 			m_nBrightnessYellow = 0
 			m_nBrightnessGreen = 0

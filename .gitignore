@@ -1,10 +1,6 @@
 # Windows Explorer
-*.ini
+*.lnk
+desktop.ini
 
-# Counter-Strike: Global Offensive
-gameinfo.txt
-*.vmx
-*.log
-*.prt
-*.bsp
-*.nav
+# Counter-Strike 2
+*_bakeresourcecache*
