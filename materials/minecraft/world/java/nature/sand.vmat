@@ -34,7 +34,7 @@ Layer0
 	{
 		WorldMappingWidth "40"
 		WorldMappingHeight "40"
-		PhysicsSurfaceProperties "concrete"
+		PhysicsSurfaceProperties "sand"
 	}
 
 	UnusedVariables
