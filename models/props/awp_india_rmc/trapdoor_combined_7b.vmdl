@@ -11,7 +11,7 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "models\\props\\awp_india_rmc\\fbx\\mesh\\trapdoor_combined_7b.fbx"
+						filename = "models\\props\\awp_india_rmc\\trapdoor_combined_7b_lod0.fbx"
 						import_scale = 1.0
 						import_filter = 
 						{
