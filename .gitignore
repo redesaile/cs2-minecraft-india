@@ -4,3 +4,7 @@ desktop.ini
 
 # Counter-Strike 2
 *_bakeresourcecache*
+
+# User-specific files
+*.blend*
+!*.blend
