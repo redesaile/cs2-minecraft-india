@@ -49,4 +49,30 @@ Layer0
 		"g_vDetailTexCoordScale1" "[1.000 1.000]"
 		"TextureNormalDetail1" ""
 	}
+
+
+	VariableState
+	{
+		"Color"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Material1"
+		{
+			"Color" 0
+			"Tint Mask" 0
+			"Translucent" 0
+			"Lighting" 0
+			"Height" 0
+			"Texture Transform" 1
+		}
+		"Texture Address Mode"
+		{
+		}
+		"Translucent"
+		{
+		}
+	}
 }
