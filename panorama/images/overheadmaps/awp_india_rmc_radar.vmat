@@ -1,0 +1,29 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_composite_generic.vfx"
+
+	g_flAlphaBlend "0.000"
+
+	//---- Options ----
+	TextureA "panorama/images/overheadmaps/awp_india_rmc_radar.tga"
+	TextureB ""
+
+	UnusedVariables
+	{
+		"g_nTextureAddressModeU" "0"
+		"g_nTextureAddressModeV" "0"
+	}
+
+
+	VariableState
+	{
+		""
+		{
+		}
+		"Options"
+		{
+		}
+	}
+}

@@ -85,6 +85,9 @@
 							exception_list = 
 							[
 								"iron_bars_01_lod0",
+								"iron_bars_1_lod0_layer2",
+								"iron_bars_1_lod0_layer1_001",
+								"iron_bars_1_lod0_003",
 							]
 						}
 					},

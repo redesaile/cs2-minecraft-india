@@ -43,7 +43,7 @@
 						[
 							{
 								from = "materials/minecraft/models/java/building/planks/oak_planks.vmat"
-								to = "materials/minecraft/world/java/building/planks/spruce_planks.vmat"
+								to = "materials/minecraft/models/java/building/planks/spruce_planks.vmat"
 							},
 						]
 					},

@@ -33,8 +33,8 @@ Layer0
 	TextureTranslucency1 "materials/maps/awp_india_rmc/iron_bars_trans.png"
 
 	//---- Texture Address Mode ----
-	g_nTextureAddressModeU "0" // Wrap
-	g_nTextureAddressModeV "0" // Wrap
+	g_nTextureAddressModeU "2" // Clamp
+	g_nTextureAddressModeV "2" // Clamp
 
 	//---- Translucent ----
 	g_flAlphaTestReference "0.500"

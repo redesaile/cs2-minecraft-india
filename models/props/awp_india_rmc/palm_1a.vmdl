@@ -60,10 +60,6 @@
 								from = "oak_log_top.vmat"
 								to = "materials/minecraft/world/java/nature/log/oak_log_top.vmat"
 							},
-							{
-								from = "materials/anubis/models/foliage/leaves.vmat"
-								to = "materials/minecraft/models/java/nature/vegetation/leaves/jungle_leaves.vmat"
-							},
 						]
 						use_global_default = false
 						global_default_material = ""

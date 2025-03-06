@@ -2,43 +2,81 @@
 
 Layer0
 {
-	shader "csgo_environment.vfx"
+	shader "csgo_foliage.vfx"
+
+	//---- Foliage Animation ----
+	F_FOLIAGE_ANIMATION 1
 
 	//---- Translucent ----
 	F_ALPHA_TEST 1
 
+	//---- Ambient Occlusion ----
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
+
 	//---- Color ----
 	g_flModelTintAmount "1.000"
-	g_nScaleTexCoordUByModelScaleAxis "0" // None
-	g_nScaleTexCoordVByModelScaleAxis "0" // None
+	g_fTextureColorBrightness "1.000"
+	g_fTextureColorContrast "1.000"
+	g_fTextureColorSaturation "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	g_vTextureColorCorrectionTint "[1.000000 1.000000 1.000000 0.000000]"
+	TextureColor "materials/minecraft/world/java/nature/vegetation/dead_bush_color.png"
 
 	//---- Fog ----
 	g_bFogEnabled "1"
 
-	//---- Material1 ----
-	g_flAlphaTestReference1 "0.500"
-	g_flAntiAliasedEdgeStrength1 "1.000"
-	g_flTexCoordRotation1 "0.000"
-	g_vTexCoordCenter1 "[0.500 0.500]"
-	g_vTexCoordOffset1 "[0.000 0.000]"
-	g_vTexCoordScale1 "[1.000 1.000]"
-	TextureAmbientOcclusion1 "materials/default/default_ao.tga"
-	TextureColor1 "ref://materials/minecraft/world/java/nature/vegetation/dead_bush.vmat"
-	TextureHeight1 "materials/default/default_height.tga"
-	TextureMetalness1 "materials/default/default_metal.tga"
-	TextureNormal1 "materials/default/default_normal.tga"
-	TextureRoughness1 "ref://materials\minecraft\world\java\nature\vegetation\dead_bush.vmat"
-	TextureTintMask1 "ref://materials\minecraft\world\java\nature\vegetation\dead_bush.vmat"
-	TextureTranslucency1 "ref://materials\minecraft\world\java\nature\vegetation\dead_bush.vmat"
+	//---- Foliage Animation ----
+	g_bBranchMotionPerpendicular "1"
+	g_bFrondTipUseEnvWind "0"
+	g_bSmootherNoiseBranchAndTrunk "1"
+	g_flBranchAnimSpeed "1.000"
+	g_flBranchDeflection "0.000"
+	g_flBranchDeflectionEnd "150.000"
+	g_flBranchDeflectionStart "0.000"
+	g_flBranchNoiseLevel "0.500"
+	g_flFrondTipAnimSpeed "1.000"
+	g_flFrondTipMaskFalloff "1.000"
+	g_flFrondTipSpatialIncoherence "1.000"
+	g_flFrondTipStrength "2.000"
+	g_flTrunkAnimSpeed "2.507"
+	g_flTrunkDeflection "0.105"
+	g_flTrunkDeflectionEnd "300.000"
+	g_flTrunkDeflectionStart "0.000"
+	g_flTrunkNoiseLevel "0.500"
+	g_vNoiseUvScale "[1.000 1.000 1.000]"
+	g_vNoiseUvSpeed "[0.250 0.250 0.250]"
+
+	//---- Lighting ----
+	g_fTextureRoughnessBrightness "1.000"
+	g_fTextureRoughnessContrast "1.000"
+	TextureRoughness "materials/default/default_rough.tga"
+
+	//---- Normal Map ----
+	g_fTextureNormalContrast "1.000"
+	TextureNormal "materials/default/default_normal.tga"
 
 	//---- Texture Address Mode ----
 	g_nTextureAddressModeU "2" // Clamp
 	g_nTextureAddressModeV "2" // Clamp
 
 	//---- Translucent ----
+	g_flAlphaBoostDistance "20000.000"
+	g_flAlphaBoostStrength "3.000"
 	g_flAlphaTestReference "0.500"
-	g_flAntiAliasedEdgeStrength "1.000"
+	g_flGrazingAngleMask "0.000"
+	TextureTranslucency "materials/minecraft/world/java/nature/vegetation/dead_bush_trans.png"
+
+	//---- Vertex Color ----
+	g_flHeightGradientAmount "0.000"
+	g_flHeightGradientPower "1.000"
+	g_flVertexAmbientOcclusionAmount "0.000"
+	g_flVertexAmbientOcclusionPower "1.000"
+
+	Attributes
+	{
+		PreviewModel "models/props_minecraft/java/nature/vegetation/dead_bush.vmdl"
+	}
 
 	SystemAttributes
 	{
@@ -70,27 +108,42 @@ Layer0
 
 	VariableState
 	{
+		"Ambient Occlusion"
+		{
+		}
 		"Color"
 		{
+			"Color Correction" 0
 		}
 		"Fog"
 		{
 		}
-		"Material1"
+		"Foliage Animation"
 		{
-			"Color" 0
-			"Tint Mask" 0
-			"Translucent" 0
-			"Lighting" 0
-			"Height" 0
-			"Texture Transform" 1
+			"Branch Animation" 0
+			"Common Noise Parameters" 0
+			"Frond Tip Anim (Red Channel)" 0
+			"Trunk Animation" 0
+		}
+		"Lighting"
+		{
+			"Roughness" 0
+		}
+		"Normal Map"
+		{
 		}
 		"Texture Address Mode"
 		{
 		}
 		"Translucent"
 		{
-			"_expanded" 0
+			"Alpha Boost Mask" 0
+			"Grazing Angle Mask" 0
+		}
+		"Vertex Color"
+		{
+			"Ambient Occlusion (Alpha Channel)" 0
+			"Height Gradient (Red Channel)" 0
 		}
 	}
 }

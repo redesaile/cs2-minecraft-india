@@ -12,22 +12,12 @@
 					{
 						_class = "RenderMeshFile"
 						filename = "models\\props\\awp_india_rmc\\trapdoor_combined_5a_lod0.fbx"
-						import_scale = 1.0
+						import_scale = 0.3937
 						import_filter = 
 						{
 							exclude_by_default = false
 							exception_list = [  ]
 						}
-					},
-				]
-			},
-			{
-				_class = "ModelModifierList"
-				children = 
-				[
-					{
-						_class = "ModelModifier_Translate"
-						translation = [ 0.0, -40.0, 0.0 ]
 					},
 				]
 			},
@@ -53,7 +43,7 @@
 						surface_prop = "Wood"
 						collision_prop = "default"
 						tool_material = ""
-						origin = [ 280.0, 20.0, -3.75 ]
+						origin = [ 280.0, -20.0, -3.75 ]
 						angles = [ 0.0, 0.0, 0.0 ]
 						dimensions = [ 560.0, 40.0, 7.5 ]
 					},

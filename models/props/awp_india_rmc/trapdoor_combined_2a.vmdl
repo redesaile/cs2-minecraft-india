@@ -31,11 +31,11 @@
 						[
 							{
 								from = "oak_trapdoor_side.vmat"
-								to = "materials/minecraft/world/java/func/trapdoor/oak_trapdoor_side.vmat"
+								to = "materials/minecraft/models/java/func/trapdoor/oak_trapdoor_side.vmat"
 							},
 							{
 								from = "oak_trapdoor_top.vmat"
-								to = "materials/minecraft/world/java/func/trapdoor/oak_trapdoor.vmat"
+								to = "materials/minecraft/models/java/func/trapdoor/oak_trapdoor.vmat"
 							},
 						]
 						use_global_default = false

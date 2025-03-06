@@ -30,8 +30,8 @@ Layer0
 	TextureNormal ""
 
 	//---- Texture Address Mode ----
-	g_nTextureAddressModeU "2" // Wrap
-	g_nTextureAddressModeV "2" // Wrap
+	g_nTextureAddressModeU "2" // Clamp
+	g_nTextureAddressModeV "2" // Clamp
 
 	SystemAttributes
 	{
@@ -58,5 +58,30 @@ Layer0
 		"TextureDetailMask" ""
 		"TextureNormalDetail" ""
 		"g_flOcclusionCullingBoundsScale" "1"
+	}
+
+
+	VariableState
+	{
+		"Ambient Occlusion"
+		{
+		}
+		"Color"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Lighting"
+		{
+			"Roughness" 0
+			"Metalness" 0
+		}
+		"Normal Map"
+		{
+		}
+		"Texture Address Mode"
+		{
+		}
 	}
 }

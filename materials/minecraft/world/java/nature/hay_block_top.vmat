@@ -2,29 +2,32 @@
 
 Layer0
 {
-	shader "csgo_environment.vfx"
+	shader "csgo_simple.vfx"
+
+	//---- Ambient Occlusion ----
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
+	g_flTexCoordRotation "0.000"
 	g_nScaleTexCoordUByModelScaleAxis "0" // None
 	g_nScaleTexCoordVByModelScaleAxis "0" // None
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordCenter "[0.500 0.500]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	TextureColor "materials/minecraft/world/java/nature/hay_block_top_color.png"
 
 	//---- Fog ----
 	g_bFogEnabled "1"
 
-	//---- Material1 ----
-	g_flTexCoordRotation1 "0.000"
-	g_vTexCoordCenter1 "[0.500 0.500]"
-	g_vTexCoordOffset1 "[0.000 0.000]"
-	g_vTexCoordScale1 "[1.000 1.000]"
-	TextureAmbientOcclusion1 "materials/default/default_ao.tga"
-	TextureColor1 "materials/minecraft/world/java/nature/hay_block_top_color.png"
-	TextureHeight1 "materials/default/default_height.tga"
-	TextureMetalness1 "materials/default/default_metal.tga"
-	TextureNormal1 "materials/default/default_normal.tga"
-	TextureRoughness1 "[1.000000 1.000000 1.000000 0.000000]"
-	TextureTintMask1 "materials/default/default_mask.tga"
+	//---- Lighting ----
+	g_flMetalness "0.000"
+	TextureRoughness "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Normal Map ----
+	TextureNormal "materials/default/default_normal.tga"
 
 	//---- Texture Address Mode ----
 	g_nTextureAddressModeU "0" // Wrap
@@ -60,19 +63,22 @@ Layer0
 
 	VariableState
 	{
+		"Ambient Occlusion"
+		{
+		}
 		"Color"
 		{
 		}
 		"Fog"
 		{
 		}
-		"Material1"
+		"Lighting"
 		{
-			"Color" 0
-			"Tint Mask" 0
-			"Lighting" 0
-			"Height" 0
-			"Texture Transform" 1
+			"Roughness" 0
+			"Metalness" 0
+		}
+		"Normal Map"
+		{
 		}
 		"Texture Address Mode"
 		{
