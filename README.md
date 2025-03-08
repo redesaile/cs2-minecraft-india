@@ -8,8 +8,8 @@ AWP India map from [Minecraft](https://www.minecraft.net) (see the [Planet Minec
 <br> **Maximum players:** 40 (20 per team)
 
 ## Gallery
-![1](https://github.com/user-attachments/assets/6c44be73-e058-4aca-89f2-563d64bc99c7)
-![4](https://github.com/user-attachments/assets/0ef1f94d-1def-4101-9b22-69bbfe811110)
+![1](https://github.com/user-attachments/assets/27d49207-71b2-42b9-876a-23521022de45)
+![4](https://github.com/user-attachments/assets/7852e17a-d3f0-4432-adf3-412f57cf06ee)
 
 ## License
 Do whatever you want. I don't care.
