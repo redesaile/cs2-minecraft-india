@@ -90,7 +90,7 @@
         ]
     }
 	
-	awp_india_rmc.outdoors = 
+    awp_india_rmc.outdoors = 
     {
         type = "csgo_mega"
         mixgroup = "MinecraftIndia"
@@ -172,7 +172,7 @@
         ]
     }
 	
-	awp_india_rmc.outdoors.wind_sand = 
+    awp_india_rmc.outdoors.wind_sand = 
     {
         type = "csgo_mega"
         mixgroup = "MinecraftIndia"
