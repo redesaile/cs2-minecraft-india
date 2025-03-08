@@ -5,7 +5,7 @@
         type = "csgo_mega"
         volume = 1
         pitch = 1.000000
-        mixgroup = "Amb_Common"
+        mixgroup = "Minecraft"
         vsnd_files_track_01 = "sounds/minecraft/music/creative6.vsnd"
         distance_volume_mapping_curve = 
         [
@@ -35,7 +35,7 @@
         type = "csgo_mega"
         volume = 2
         pitch = 1.000000
-        mixgroup = "Ambient"
+        mixgroup = "Minecraft"
         vsnd_files_track_01 = "sounds/minecraft/wood_button_press.vsnd"
         distance_volume_mapping_curve = 
         [
@@ -65,7 +65,7 @@
         type = "csgo_mega"
         volume = 2
         pitch = 1.000000
-        mixgroup = "Ambient"
+        mixgroup = "Minecraft"
         vsnd_files_track_01 = "sounds/minecraft/wood_button_unpress.vsnd"
         distance_volume_mapping_curve = 
         [
@@ -88,5 +88,387 @@
                 3.000000,
             ],
         ]
+    }
+	
+	awp_india_rmc.outdoors = 
+    {
+        type = "csgo_mega"
+        mixgroup = "MinecraftIndia"
+        enable_child_events = true
+        override_dsp_preset = false
+        dsp_preset = "reverb_21_outsideStreet"
+        use_time_volume_mapping_curve = true
+        set_child_position = false
+        distance_effect_mix = 0.000000
+        restrict_source_reverb = true
+        fadetime_volume_mapping_curve = 
+        [
+            
+            [
+                0.000000,
+                1.000000,
+                0.000000,
+                0.000000,
+                2.000000,
+                3.000000,
+            ],
+            
+            [
+                2.000000,
+                0.000000,
+                0.000000,
+                0.000000,
+                2.000000,
+                3.000000,
+            ],
+        ]
+        time_volume_mapping_curve = 
+        [
+            
+            [
+                0.000000,
+                0.000000,
+                0.000000,
+                6.823822,
+                2.000000,
+                2.000000,
+            ],
+            
+            [
+                0.362857,
+                1.000000,
+                0.260146,
+                0.260146,
+                2.000000,
+                3.000000,
+            ],
+        ]
+        soundevent_01 = 
+        [
+            "awp_india_rmc.outdoors.sand_gusts",
+            "awp_india_rmc.outdoors.wind",
+            "awp_india_rmc.outdoors.wind_sand",
+        ]
+        distance_volume_mapping_curve = 
+        [
+            
+            [
+                0.000000,
+                1.000000,
+                0.000000,
+                0.000000,
+                2.000000,
+                3.000000,
+            ],
+            
+            [
+                300.000000,
+                1.000000,
+                0.000000,
+                0.000000,
+                2.000000,
+                3.000000,
+            ],
+        ]
+    }
+	
+	awp_india_rmc.outdoors.wind_sand = 
+    {
+        type = "csgo_mega"
+        mixgroup = "MinecraftIndia"
+        use_time_volume_mapping_curve = true
+        use_distance_unfiltered_stereo_mapping_curve = true
+        pitch_random_min = -0.060000
+        pitch_random_max = 0.060000
+        set_child_position = false
+        distance_effect_mix = 0.000000
+        restrict_source_reverb = true
+        vsnd_files_track_01 = "sounds/ambient/dust2/wind_sand_01.vsnd"
+        distance_unfiltered_stereo_mapping_curve = 
+        [
+            
+            [
+                0.000000,
+                1.000000,
+                0.000000,
+                0.000000,
+                2.000000,
+                3.000000,
+            ],
+            
+            [
+                300.000000,
+                1.000000,
+                0.000000,
+                0.000000,
+                2.000000,
+                3.000000,
+            ],
+        ]
+        distance_volume_mapping_curve = 
+        [
+            
+            [
+                0.000000,
+                1.000000,
+                0.000000,
+                0.000000,
+                2.000000,
+                3.000000,
+            ],
+            
+            [
+                300.000000,
+                1.000000,
+                0.000000,
+                0.000000,
+                2.000000,
+                3.000000,
+            ],
+        ]
+        fadetime_volume_mapping_curve = 
+        [
+            
+            [
+                0.000000,
+                1.000000,
+                0.000000,
+                0.000000,
+                2.000000,
+                3.000000,
+            ],
+            
+            [
+                2.000000,
+                0.000000,
+                0.000000,
+                0.000000,
+                2.000000,
+                3.000000,
+            ],
+        ]
+        time_volume_mapping_curve = 
+        [
+            
+            [
+                0.000000,
+                0.000000,
+                0.000000,
+                6.823822,
+                2.000000,
+                2.000000,
+            ],
+            
+            [
+                0.362857,
+                1.000000,
+                0.260146,
+                0.260146,
+                2.000000,
+                3.000000,
+            ],
+        ]
+        vsnd_duration = 70.579208
+    }
+	
+    awp_india_rmc.outdoors.wind = 
+    {
+        type = "csgo_mega"
+        mixgroup = "MinecraftIndia"
+        use_time_volume_mapping_curve = true
+        volume = 0.150000
+        use_distance_unfiltered_stereo_mapping_curve = true
+        set_child_position = false
+        distance_effect_mix = 0.000000
+        restrict_source_reverb = true
+        vsnd_files_track_01 = "sounds/ambient/wind/csgo_dust_wind_lp_02.vsnd"
+        distance_volume_mapping_curve = 
+        [
+            
+            [
+                0.000000,
+                1.000000,
+                0.000000,
+                0.000000,
+                2.000000,
+                3.000000,
+            ],
+            
+            [
+                300.000000,
+                1.000000,
+                0.000000,
+                0.000000,
+                2.000000,
+                3.000000,
+            ],
+        ]
+        distance_unfiltered_stereo_mapping_curve = 
+        [
+            
+            [
+                0.000000,
+                1.000000,
+                0.000000,
+                0.000000,
+                2.000000,
+                3.000000,
+            ],
+            
+            [
+                300.000000,
+                1.000000,
+                0.000000,
+                0.000000,
+                2.000000,
+                3.000000,
+            ],
+        ]
+        fadetime_volume_mapping_curve = 
+        [
+            
+            [
+                0.000000,
+                1.000000,
+                0.000000,
+                0.000000,
+                2.000000,
+                3.000000,
+            ],
+            
+            [
+                2.000000,
+                0.000000,
+                0.000000,
+                0.000000,
+                2.000000,
+                3.000000,
+            ],
+        ]
+        time_volume_mapping_curve = 
+        [
+            
+            [
+                0.000000,
+                0.000000,
+                0.000000,
+                6.823822,
+                2.000000,
+                2.000000,
+            ],
+            
+            [
+                0.362857,
+                1.000000,
+                0.260146,
+                0.260146,
+                2.000000,
+                3.000000,
+            ],
+        ]
+        vsnd_duration = 7.148299
+    }
+	
+    awp_india_rmc.outdoors.sand_gusts = 
+    {
+        type = "csgo_mega"
+        mixgroup = "MinecraftIndia"
+        use_time_volume_mapping_curve = true
+        volume = 0.400000
+        volume_random_max = 0.200000
+        pitch_random_min = -0.060000
+        pitch_random_max = 0.060000
+        randomize_position_min_radius = 0.000000
+        randomize_position_max_radius = 300.000000
+        retrigger_interval_min = 3.000000
+        retrigger_interval_max = 35.000000
+        enable_retrigger = true
+        block_matching_events = false
+        block_match_entity = false
+        block_duration = 0.000000
+        block_distance = 0.000000
+        set_child_position = false
+        position_relative_to_player = true
+        distance_effect_mix = 0.000000
+        restrict_source_reverb = true
+        vsnd_files_track_01 = 
+        [
+            "sounds/ambient/dust2/sand_gust_01.vsnd",
+            "sounds/ambient/dust2/sand_gust_02.vsnd",
+            "sounds/ambient/dust2/sand_gust_03.vsnd",
+            "sounds/ambient/dust2/sand_gust_04.vsnd",
+            "sounds/ambient/dust2/sand_gust_05.vsnd",
+            "sounds/ambient/dust2/sand_gust_06.vsnd",
+            "sounds/ambient/dust2/sand_gust_07.vsnd",
+            "sounds/ambient/dust2/sand_gust_08.vsnd",
+            "sounds/ambient/dust2/sand_gust_09.vsnd",
+            "sounds/ambient/dust2/sand_gust_10.vsnd",
+            "sounds/ambient/dust2/sand_gust_11.vsnd",
+            "sounds/ambient/dust2/sand_gust_12.vsnd",
+        ]
+        distance_volume_mapping_curve = 
+        [
+            
+            [
+                0.000000,
+                1.000000,
+                0.000000,
+                0.000000,
+                2.000000,
+                3.000000,
+            ],
+            
+            [
+                1400.000000,
+                0.000000,
+                0.000000,
+                0.000000,
+                2.000000,
+                3.000000,
+            ],
+        ]
+        fadetime_volume_mapping_curve = 
+        [
+            
+            [
+                0.000000,
+                1.000000,
+                0.000000,
+                0.000000,
+                2.000000,
+                3.000000,
+            ],
+            
+            [
+                2.000000,
+                0.000000,
+                0.000000,
+                0.000000,
+                2.000000,
+                3.000000,
+            ],
+        ]
+        time_volume_mapping_curve = 
+        [
+            
+            [
+                0.000000,
+                0.000000,
+                0.000000,
+                6.823822,
+                2.000000,
+                2.000000,
+            ],
+            
+            [
+                0.362857,
+                1.000000,
+                0.260146,
+                0.260146,
+                2.000000,
+                3.000000,
+            ],
+        ]
+        vsnd_duration = 8.747869
     }
 }
