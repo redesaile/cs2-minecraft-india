@@ -4,14 +4,12 @@ AWP India map from [Minecraft](https://www.minecraft.net) (see the [Planet Minec
 ## Details
 **Game scenario:** Aim Training
 <br> **Supported game modes:** Classic, Deathmatch, Wingman, Custom
-<br> **Weapon limit:** AWP, Desert Eagle and Knife
-<br> **Maximum players:** 40 (20 per team)
+<br> **Weapon limit:** AWP, Desert Eagle, Knife
+<br> **Maximum players:** 32 (16 per team)
 
 ## Gallery
-![1](https://github.com/user-attachments/assets/14028d6d-3b8f-4397-9c73-0fb151e1e020)
-![2](https://github.com/user-attachments/assets/3d438869-8a36-494c-bc5e-8d1949daed05)
-
-
+![1](https://github.com/user-attachments/assets/26b131a6-daa7-4a1d-9097-55854c39f8e6)
+![4](https://github.com/user-attachments/assets/e482e020-ea24-4fab-9961-8f78d2fd2e51)
 
 ## License
 Do whatever you want. I don't care.
