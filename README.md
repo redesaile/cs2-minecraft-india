@@ -9,7 +9,8 @@ AWP India map from [Minecraft](https://www.minecraft.net) (see the [Planet Minec
 
 ## Gallery
 ![1](https://github.com/user-attachments/assets/27d49207-71b2-42b9-876a-23521022de45)
-![4](https://github.com/user-attachments/assets/7852e17a-d3f0-4432-adf3-412f57cf06ee)
+![1](https://github.com/user-attachments/assets/552d2269-effb-4da8-8045-c5317021c00c)
+![4](https://github.com/user-attachments/assets/e482e020-ea24-4fab-9961-8f78d2fd2e51)
 
 ## License
 Do whatever you want. I don't care.
