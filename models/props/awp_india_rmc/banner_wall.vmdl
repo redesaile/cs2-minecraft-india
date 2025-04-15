@@ -21,6 +21,17 @@
 						use_global_default = false
 						global_default_material = ""
 					},
+					{
+						_class = "MaterialGroup"
+						name = "another_ao"
+						remaps = 
+						[
+							{
+								from = "materials/maps/awp_india_rmc/banner.vmat"
+								to = "materials/maps/awp_india_rmc/banner_with_another_ao.vmat"
+							},
+						]
+					},
 				]
 			},
 			{
