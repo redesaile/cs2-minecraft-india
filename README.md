@@ -1,5 +1,8 @@
 # Minecraft India
-AWP India map from [Minecraft](https://www.minecraft.net) (see the [Planet Minecraft Community](https://www.planetminecraft.com/project/awp-india-csgo/)), ported to [Counter-Strike: Global Offensive](https://en.wikipedia.org/wiki/Counter-Strike:_Global_Offensive) (that version can be found in [Releases](https://github.com/redesaile/cs2-minecraft-india/releases/tag/csgo)) and updated to [Counter-Strike 2](https://store.steampowered.com/app/730) with some changes.
+The iconic map from [Counter-Strike 1.6](https://store.steampowered.com/app/10/CounterStrike) by Johan "Bobo" Fasting, made in the [Minecraft](https://www.minecraft.net) style for [Counter-Strike: Global Offensive](https://en.wikipedia.org/wiki/Counter-Strike:_Global_Offensive) (this version is deprecated, but is available in the [Releases](https://github.com/redesaile/cs2-minecraft-india/releases/tag/csgo) section) and [Counter-Strike 2](https://store.steampowered.com/app/730).
+
+> [!IMPORTANT]
+> **There is a third-party software used here.** To have full compatibility, see [RadGen](https://radargenerator.github.io).
 
 ## Details
 **Game scenario:** Aim Training
@@ -8,8 +11,7 @@ AWP India map from [Minecraft](https://www.minecraft.net) (see the [Planet Minec
 <br> **Maximum players:** 32 (16 per team)
 
 ## Gallery
-![1](https://github.com/user-attachments/assets/26b131a6-daa7-4a1d-9097-55854c39f8e6)
-![4](https://github.com/user-attachments/assets/e482e020-ea24-4fab-9961-8f78d2fd2e51)
+![Screenshot 4 (compressed)](https://github.com/user-attachments/assets/d91f072b-9a8b-469f-b3e3-ba79a06d7582)
 
 ## License
 Do whatever you want. I don't care.
