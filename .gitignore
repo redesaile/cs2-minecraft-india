@@ -5,6 +5,11 @@ desktop.ini
 # Counter-Strike 2
 *_bakeresourcecache*
 
+# RadGen
+materials/radgen/
+[Rr]ad[Gg]en/
+*.radgen.bak
+
 # User-specific files
 *.blend*
 !*.blend

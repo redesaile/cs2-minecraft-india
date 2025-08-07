@@ -4,9 +4,6 @@ Layer0
 {
 	shader "csgo_foliage.vfx"
 
-	//---- Foliage Animation ----
-	F_FOLIAGE_ANIMATION 1
-
 	//---- PBR ----
 	F_TRANSMISSIVE_BACKFACE_NDOTL 1
 
@@ -16,6 +13,9 @@ Layer0
 	//---- Translucent ----
 	F_ALPHA_TEST 1
 
+	//---- Vertex Animation ----
+	F_VERTEX_ANIMATION 1 // Simple
+
 	//---- Ambient Occlusion ----
 	TextureAmbientOcclusion "materials/default/default_ao.tga"
 
@@ -24,7 +24,6 @@ Layer0
 	g_fTextureColorBrightness "1.000"
 	g_fTextureColorContrast "1.000"
 	g_fTextureColorSaturation "1.000"
-	g_nColorCorrectionMode "0" // Mask All
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
 	g_vTextureColorCorrectionTint "[1.000000 1.000000 1.000000 0.000000]"
@@ -34,29 +33,7 @@ Layer0
 	//---- Fog ----
 	g_bFogEnabled "1"
 
-	//---- Foliage Animation ----
-	g_bBranchMotionPerpendicular "1"
-	g_bFrondTipUseEnvWind "0"
-	g_bSmootherNoiseBranchAndTrunk "1"
-	g_flBranchAnimSpeed "1.000"
-	g_flBranchDeflection "0.000"
-	g_flBranchDeflectionEnd "150.000"
-	g_flBranchDeflectionStart "0.000"
-	g_flBranchNoiseLevel "0.500"
-	g_flFrondTipAnimSpeed "1.000"
-	g_flFrondTipMaskFalloff "1.000"
-	g_flFrondTipSpatialIncoherence "1.000"
-	g_flFrondTipStrength "2.000"
-	g_flTrunkAnimSpeed "3.000"
-	g_flTrunkDeflection "0.038"
-	g_flTrunkDeflectionEnd "600.000"
-	g_flTrunkDeflectionStart "220.000"
-	g_flTrunkNoiseLevel "0.500"
-	g_vNoiseUvScale "[1.000 1.000 1.000]"
-	g_vNoiseUvSpeed "[0.250 0.250 0.250]"
-
 	//---- Lighting ----
-	g_bMaskRoughnessAdjustmentsByTintMask "0"
 	g_fTextureRoughnessBrightness "1.000"
 	g_fTextureRoughnessContrast "1.000"
 	TextureRoughness "ref://materials\minecraft\world\java\nature\vegetation\leaves\jungle_leaves.vmat"
@@ -79,6 +56,16 @@ Layer0
 	//---- Transmission ----
 	g_bApplyColorCorrectionToTransmissiveColor "1"
 	TextureTransmissiveColor "ref://materials\minecraft\world\java\nature\vegetation\leaves\jungle_leaves.vmat"
+
+	//---- Vertex Animation ----
+	g_flFlutterAmount "0.075"
+	g_flFlutterFalloff "1.000"
+	g_flFlutterNoiseScale "1.000"
+	g_flFlutterSpeed "1.000"
+	g_flSwayAmount "0.118"
+	g_flSwayFalloff "1.000"
+	g_flSwayNoiseScale "1.000"
+	g_flSwaySpeed "0.750"
 
 	//---- Vertex Color ----
 	g_flHeightGradientAmount "0.000"
@@ -118,15 +105,26 @@ Layer0
 		"g_vNoise1Speed" "[0.123 0.111 0.068]"
 		"g_vNoise2Scale" "[0.000 0.000 0.000]"
 		"g_vNoise2Speed" "[0.233 0.444 0.041]"
-		"g_flFlutterAmount" "0.5"
-		"g_flFlutterFalloff" "1.509"
-		"g_flFlutterNoiseScale" "0.807"
-		"g_flFlutterSpeed" "1"
-		"g_flSwayAmount" "0.703"
-		"g_flSwayFalloff" "2"
-		"g_flSwayNoiseScale" "0.33"
-		"g_flSwaySpeed" "0.401"
 		"g_flVertexNormalInfluence" "0"
+		"g_bBranchMotionPerpendicular" "1"
+		"g_bFrondTipUseEnvWind" "0"
+		"g_bSmootherNoiseBranchAndTrunk" "1"
+		"g_flBranchAnimSpeed" "1"
+		"g_flBranchDeflection" "0"
+		"g_flBranchDeflectionEnd" "150"
+		"g_flBranchDeflectionStart" "0"
+		"g_flBranchNoiseLevel" "0.5"
+		"g_flFrondTipAnimSpeed" "1"
+		"g_flFrondTipMaskFalloff" "1"
+		"g_flFrondTipSpatialIncoherence" "1"
+		"g_flFrondTipStrength" "2"
+		"g_flTrunkAnimSpeed" "3"
+		"g_flTrunkDeflection" "0.038"
+		"g_flTrunkDeflectionEnd" "600"
+		"g_flTrunkDeflectionStart" "220"
+		"g_flTrunkNoiseLevel" "0.5"
+		"g_vNoiseUvScale" "[1.000 1.000 1.000]"
+		"g_vNoiseUvSpeed" "[0.250 0.250 0.250]"
 	}
 
 
@@ -141,13 +139,6 @@ Layer0
 		}
 		"Fog"
 		{
-		}
-		"Foliage Animation"
-		{
-			"Branch Animation" 0
-			"Common Noise Parameters" 0
-			"Frond Tip Anim (Red Channel)" 0
-			"Trunk Animation" 0
 		}
 		"Lighting"
 		{
@@ -166,6 +157,11 @@ Layer0
 		}
 		"Transmission"
 		{
+		}
+		"Vertex Animation"
+		{
+			"Sway (Red Channel)" 0
+			"Flutter (Blue Channel)" 0
 		}
 		"Vertex Color"
 		{

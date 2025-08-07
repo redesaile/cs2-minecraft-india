@@ -6,6 +6,21 @@
 		children = 
 		[
 			{
+				_class = "ModelModifierList"
+				children = 
+				[
+					{
+						_class = "ModelModifier_ScaleAndMirror"
+						scale = 0.3937
+						mirror_x = false
+						mirror_y = false
+						mirror_z = false
+						flip_bone_forward = false
+						swap_left_and_right_bones = false
+					},
+				]
+			},
+			{
 				_class = "MaterialGroupList"
 				children = 
 				[
@@ -14,8 +29,8 @@
 						remaps = 
 						[
 							{
-								from = "cross_block.vmat"
-								to = "materials/minecraft/models/java/nature/vegetation/dead_bush.vmat"
+								from = "iron_bars.vmat"
+								to = "materials/maps/awp_minecraft_india/iron_bars.vmat"
 							},
 						]
 						use_global_default = false
@@ -30,24 +45,27 @@
 					{
 						_class = "PhysicsHullFile"
 						parent_bone = ""
-						surface_prop = "Wood"
+						surface_prop = "metal"
 						collision_prop = "default"
 						tool_material = ""
 						recenter_on_parent_bone = false
 						offset_origin = [ 0.0, 0.0, 0.0 ]
 						offset_angles = [ 0.0, 0.0, 0.0 ]
-						filename = "models/props_minecraft/common/cross_block_physics.fbx"
+						filename = "models/props/awp_minecraft_india/iron_bars_physics.fbx"
 						import_scale = 1.0
 						faceMergeAngle = 10.0
 						maxHullVertices = 0
-						import_mode = "SingleHull"
+						import_mode = "HullPerElement"
 						small_element_threshold = 0.0
 						thin_element_threshold = 0.0
 						optimization_algorithm = "QEM"
 						import_filter = 
 						{
 							exclude_by_default = false
-							exception_list = [  ]
+							exception_list = 
+							[
+								"iron_bars_02_physics",
+							]
 						}
 					},
 				]
@@ -59,34 +77,19 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "models/props_minecraft/common/cross_block_lod0.fbx"
+						filename = "models/props/awp_minecraft_india/iron_bars_lod0.fbx"
 						import_scale = 1.0
 						import_filter = 
 						{
 							exclude_by_default = false
 							exception_list = 
 							[
-								"Tall_Cross_Block_001",
-								"ceiling_cross_block_lod0_001",
-								"ceiling_tall_cross_block_lod0_001",
-								"tall_cross_block_lod0_001",
+								"iron_bars_02_lod0",
+								"iron_bars_2_lod0_layer1_001",
+								"iron_bars_2_lod0_layer2",
+								"iron_bars_2_lod0_001",
 							]
 						}
-					},
-				]
-			},
-			{
-				_class = "ModelModifierList"
-				children = 
-				[
-					{
-						_class = "ModelModifier_ScaleAndMirror"
-						scale = 0.3937
-						mirror_x = false
-						mirror_y = false
-						mirror_z = false
-						flip_bone_forward = false
-						swap_left_and_right_bones = false
 					},
 				]
 			},
