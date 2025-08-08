@@ -11,7 +11,7 @@ The iconic map from [Counter-Strike 1.6](https://store.steampowered.com/app/10/C
 <br> **Maximum players:** 32 (16 per team)
 
 ## Gallery
-![Screenshot 4 (compressed)](https://github.com/user-attachments/assets/d91f072b-9a8b-469f-b3e3-ba79a06d7582)
+![Screenshot 2 (compressed)](https://github.com/user-attachments/assets/cb202211-612d-41f7-9f9c-c80a4f9db000)
 
 ## License
 Do whatever you want. I don't care.
